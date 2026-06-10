@@ -18,12 +18,11 @@ bool isAnagram(string s, string t) {
 
 int main() {
     string s, t;
-    cout << "Enter the first string: ";
+cout << "Enter the first string: ";
     cin >> s;
-    cout << "Enter the second string: ";
+cout << "Enter the second string: ";
     cin >> t;
-
-    if (isAnagram(s, t)) {
+if (isAnagram(s, t)) {
         cout << "anagrams" << endl;
     } else {
         cout << "not anagrams" << endl;
